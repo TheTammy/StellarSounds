@@ -1,0 +1,80 @@
+{
+  "main.rock": {
+    "sounds": [
+      "rock"
+    ],
+    "category": "player"
+  },
+  "main.phantom_theme": {
+    "sounds": [
+      "phantom_theme"
+    ],
+    "category": "player"
+  },
+  "main.unlimited_theme": {
+    "sounds": [
+      "unlimited_theme"
+    ],
+    "category": "player"
+  },
+  "main.fnaf_jumpscare": {
+    "sounds": [
+      "fnaf_jumpscare"
+    ],
+    "category": "player"
+  },
+  "main.compbeep_1": {
+    "sounds": [
+      "compbeep_1"
+    ],
+    "category": "player"
+  },
+  "main.compbeep_2": {
+    "sounds": [
+      "compbeep_2"
+    ],
+    "category": "player"
+  },
+  "main.cyclops_beam": {
+    "sounds": [
+      "cyclops_beam"
+    ],
+    "category": "player"
+  },
+  "main.spectacular_spiderman_web_shooters": {
+    "sounds": [
+      "spectacular_spiderman_web_shooters"
+    ],
+    "category": "player"
+  },
+  "main.spider_sense": {
+    "sounds": [
+      "spider_sense"
+    ],
+    "category": "player"
+  },
+  "main.time_travel_back": {
+    "sounds": [
+      "time_travel_back"
+    ],
+    "category": "player"
+  },
+  "main.black_adam_lightning_beam_1": {
+    "sounds": [
+      "black_adam_lightning_beam_1"
+    ],
+    "category": "player"
+  },
+  "main.black_adam_lightning_beam_2": {
+    "sounds": [
+      "black_adam_lightning_beam_2"
+    ],
+    "category": "player"
+  },
+  "main.rewind_tp": {
+    "sounds": [
+      "rewind_tp"
+    ],
+    "category": "player"
+  }
+}
