@@ -1,0 +1,12 @@
+{
+  "suit": "shp:cloak",
+  "requirements": [
+    "fiskheroes:tier1",
+    "fiskheroes:flight",
+    "fiskheroes:defense1"
+  ],
+  "price": {
+  "XP_LEVELS": 10,
+  "IRID_GOLD": 1
+  }
+}

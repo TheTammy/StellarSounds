@@ -1,0 +1,22 @@
+{
+  "texture": {
+    "in": "shp:spider_man_unlimited_shaded",
+    "transform": [
+      {
+        "operation": "XOR",
+        "supply": "shp:xor/spidey_unlimited_mask/<TIMER>"
+      }
+    ],
+    "out": "fiskheroes:generated/shp:spider_man_unlimited_suit_mask_shaded_<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "Math.ceil(3 * entity.getInterpolatedData('fiskheroes:mask_open_timer2')) | 0",
+      "values": {
+        "min": 0,
+        "max": 3
+      }
+    }
+  },
+  "isDynamic": true
+}

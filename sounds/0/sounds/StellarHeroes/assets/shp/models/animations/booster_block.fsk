@@ -1,0 +1,7 @@
+{data} = {data}
+
+{rightArm_rotX} @ {data} -> -2.3
+{rightArm_rotZ} @ {data} -> -1.15
+
+{leftArm_rotX} @ {data} -> -2.3
+{leftArm_rotZ} @ {data} ->  1.15

@@ -1,0 +1,21 @@
+{
+  "texture": {
+    "in": "shp:spectacular/web_small",
+    "transform": [
+      {
+        "operation": "MULTIPLY",
+        "supply": "shp:black/<TIMER>"
+      }
+    ],
+    "out": "fiskheroes:generated/shp:web_small_<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "(entity.getInterpolatedData('shp:dyn/symbiosis_timer') * 89) | 0",
+      "values": {
+        "min": 0,
+        "max": 89
+      }
+    }
+  }
+}

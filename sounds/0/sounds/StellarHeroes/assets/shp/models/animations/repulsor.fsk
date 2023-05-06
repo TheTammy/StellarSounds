@@ -1,0 +1,2 @@
+{data} = {data}
+{HiddenRepulsor_posX} += -2.5*{data}

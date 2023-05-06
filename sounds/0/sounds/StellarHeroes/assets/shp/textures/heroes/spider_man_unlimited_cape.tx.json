@@ -1,0 +1,22 @@
+{
+  "texture": {
+    "in": "shp:spidey_unlimited_cape",
+    "transform": [
+      {
+        "operation": "XOR",
+        "supply": "shp:xor/cape/<TIMER>"
+      }
+    ],
+    "out": "shp:generated/spider_man_unlimited_cape<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "Math.ceil(24 * entity.getInterpolatedData('fiskheroes:dyn/nanite_timer')) | 0",
+      "values": {
+        "min": 0,
+        "max": 24
+      }
+    }
+  },
+  "isDynamic": true
+}

@@ -1,0 +1,12 @@
+{
+  "aspects": [{
+      "type": "LASER",
+      "opacity": 0,
+      "scale": 1.0,
+      "spin": 0.0,
+      "pulse": null,
+      "bloom": null,
+      "core": null
+    }
+  ]
+}

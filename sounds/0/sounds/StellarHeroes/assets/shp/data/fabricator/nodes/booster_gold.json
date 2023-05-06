@@ -1,0 +1,16 @@
+{
+    "suit": "shp:booster_gold",
+    "requirements": [
+      "fiskheroes:ranged3",
+      "fiskheroes:flight",
+      "fiskheroes:defense3",
+      "fiskheroes:melee",
+      "fiskheroes:traversal",
+      "fiskheroes:tier8_9"
+    ],
+    "price": {
+    "XP_LEVELS": 15,
+    "IRID_GOLD": 3
+    }
+  }
+  

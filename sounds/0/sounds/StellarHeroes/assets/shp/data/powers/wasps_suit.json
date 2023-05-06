@@ -1,0 +1,41 @@
+{
+  "name": "Wasp Suit",
+  "modifiers": {
+    "fiskheroes:size_manipulation": {
+      "isInstant": true,
+      "minSize": 0.0625,
+      "maxSize": 1.0,
+      "soundEvents": {
+        "SHRINK": "fiskheroes:pym_shrink",
+        "GROW": "fiskheroes:pym_grow"
+      }
+    },
+    "fiskheroes:controlled_flight": {
+      "speed": 0.07,
+      "boostSpeed": 0.16,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": true,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.7
+    },
+    "fiskheroes:repulsor_blast": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "ENERGY": 1.0
+        }
+      },
+      "range": 32.0,
+      "cooldownTime": 30
+    }
+  }
+
+}

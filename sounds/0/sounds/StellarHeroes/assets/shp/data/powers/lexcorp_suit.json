@@ -1,0 +1,146 @@
+{
+  "name": "Lexcorp Suit",
+  "modifiers": {
+    "fiskheroes:metal_skin": {
+    },
+    "fiskheroes:charged_beam": {
+      "damageProfile": {
+        "damage": 12.0,
+        "types": {
+          "ENERGY": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "chargeTime": 20,
+      "duration": 40,
+      "cooldownTime": 40,
+      "range": 45.0,
+      "radius": 0.1
+  },
+  "fiskheroes:transformation": {
+    "key": "CALL_SUIT",
+    "transformation": {
+      "toggleData": "shp:dyn/lexmech",
+      "timerData": "shp:dyn/lexmech_timer",
+      "time": 10
+    },
+    "soundEvents": {
+      "ENABLE": "fiskheroes:mk50_enable",
+      "DISABLE": "fiskheroes:mk50_disable"
+    }
+  },
+  "fiskheroes:energy_projection": {
+    "damageProfile": {
+      "damage": 15.0,
+      "types": {
+        "ENERGY": 1.0
+      },
+      "properties": {
+        "COOK_ENTITY": true,
+        "HEAT_TRANSFER": 80
+      }
+    },
+    "range": 200.0,
+    "radius": 0.1,
+    "soundEvents": {
+      "BEAM_AMBIENT": "fiskheroes:antimatter_beam"
+    }
+},
+"fiskheroes:cooldown": {
+  "cooldown": {
+    "toggleData": "fiskheroes:dyn/nanites",
+    "cooldownData": "fiskheroes:dyn/nanite_cooldown",
+    "duration": 6000,
+    "recovery": 3.0
+  },
+  "soundEvents": {
+    "TIMEOUT": "fiskheroes:mk50_disable"
+  }
+},
+  "fiskheroes:repulsor_blast": {
+    "damageProfile": {
+      "damage": 8.0,
+      "types": {
+        "ENERGY": 1.0
+      },
+      "properties": {
+        "ADD_KNOCKBACK": 1.0,
+        "HIT_COOLDOWN": 0.0
+      }
+    },
+    "range": 48.0,
+    "speed": 20.0,
+    "spread": 0.0,
+    "radius": 0.1,
+    "cooldownTime": 30,
+    "soundEvents": {
+      "SHOOT": "fiskheroes:repulsor_blast"
+    }
+  },
+    "fiskheroes:telekinesis": {
+      "telekinesis": {
+        "crushMelons": true,
+        "crushThrowables": true,
+        "squeezeChickens": true,
+        "explodeCreepers": true,
+        "destroyInanimates": true
+      },
+      "canGrab": {
+        "mobs": true,
+        "items": true,
+        "projectiles": true,
+        "inanimates": true
+      },
+      "range": 10.0,
+      "soundEvents": {
+        "GRAB": ["fiskheroes:telekinesis_start", "fiskheroes:telekinesis_loop"]
+      }
+    },
+    "fiskheroes:shield": {
+      "shield": {
+        "health": 100.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 100,
+        "cooldown": 240
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+    "fiskheroes:controlled_flight": {
+      "speed": 0.07,
+      "boostSpeed": 0.16,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": true,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.7
+    }
+  },
+  "hud": [
+    {
+      "type": "CIRCLE",
+      "color": "0x2AAE13",
+      "data": "fiskheroes:beam_charge"
+    }
+  ]
+}

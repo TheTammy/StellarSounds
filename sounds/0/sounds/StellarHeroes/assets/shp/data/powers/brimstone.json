@@ -1,0 +1,70 @@
+{
+  "name": "Brimstone Traveler",
+  "modifiers": {
+    "fiskheroes:teleportation": {
+      "canReachMoon": true,
+      "range": 150.0,
+      "soundEvents": {
+        "TELEPORT": "fiskheroes:glow_teleport"
+      }
+    },
+    "fiskheroes:wall_crawling": {},
+    "fiskheroes:shape_shifting": {},
+  "fiskheroes:cooldown|dash_cooldown": {
+    "cooldown": {
+      "toggleData": "entity.isSprinting() && entity.getData('shp:dyn/1boolean_reset')",
+      "cooldownData": "shp:dyn/1float_reset",
+      "duration": 10,
+      "recovery": 2
+    }
+  },
+  "fiskheroes:leaping|dash_leap": {
+    "leapAmount": [2, 0.12]
+  },
+  "fiskheroes:shield|dash_shield": {
+    "shield": {
+      "health": 100.0,
+      "regeneration": 20.0,
+      "recoveryDelay": 0,
+      "cooldown": 0
+    },
+    "coverage": {
+      "yawRadius": 180.0,
+      "pitchRadius": 180.0,
+      "yawOffset": 0.0,
+      "pitchOffset": 0.0
+    },
+    "knockback": 0,
+    "isToggle": false
+  },
+  "fiskheroes:controlled_flight|dash_controlled_flight": {
+    "speed": 0,
+    "boostSpeed": 0.18,
+    "canBoost": true,
+    "collision": {
+      "blocks": {
+        "stopFlying": true,
+        "takeDamage": false
+      },
+      "entities": {
+        "stopFlying": false,
+        "dealDamage": false
+      }
+    },
+    "knockback": 0
+  },
+  "fiskheroes:propelled_flight|check_for_air_jump": {}
+  ,
+  "fiskheroes:cooldown|air_jump_cooldown": {
+    "cooldown": {
+      "toggleData": "entity.getData('shp:dyn/4boolean_reset')",
+      "cooldownData": "shp:dyn/2float_reset",
+      "duration": 12,
+      "recovery": 2
+    }
+  },
+  "fiskheroes:flight|air_jump_flight": {
+    "speed": 0.1
+  }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Symbiotic Bond",
+  "modifiers": {
+    "fiskheroes:web_swinging": {
+      "cooldownTime": 5,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:web_swinging_enable",
+        "DISABLE": "fiskheroes:web_swinging_disable",
+        "SHOOT": "fiskheroes:web_shoot",
+        "RELEASE": "fiskheroes:web_swinging_whoosh",
+        "SWING": ["fiskheroes:web_swinging", "fiskheroes:web_stress_loop"]
+      }
+    },
+    "fiskheroes:shape_shifting": {},
+    "fiskheroes:web_zip": {
+      "range": 48.0,
+      "cooldownTime": 20,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:web_zip"
+      }
+    },
+    "fiskheroes:equipment": {
+      "equipment": {
+        "fiskheroes:sticky_web": {
+          "cooldown": 13,
+          "uses": 8,
+          "dissolveTime": 120,
+          "soundEvents": {
+            "USE": "fiskheroes:web_shoot"
+          }
+        },
+        "fiskheroes:impact_web": {
+          "cooldown": 13,
+          "uses": 4,
+          "damageProfile": {
+            "damage": 5.0,
+            "types": {
+              "BLUNT": 1.0,
+              "SOUND": 1.0
+            },
+            "properties": {
+              "DAMAGE_DROPOFF": 0.4,
+              "HIT_COOLDOWN": 0
+            }
+          },
+          "soundEvents": {
+            "USE": "fiskheroes:web_shoot"
+          }
+        },
+        "fiskheroes:rapid_webs": {
+          "cooldown": 30,
+          "uses": 1,
+          "quantity": 5,
+          "damageProfile": {
+            "damage": 4.0,
+            "types": {
+              "BLUNT": 1.0,
+              "SOUND": 1.0
+            },
+            "properties": {
+              "REDUCE_KNOCKBACK": 0.5,
+              "DAMAGE_DROPOFF": 0.2,
+              "HIT_COOLDOWN": 0
+            }
+          },
+          "soundEvents": {
+            "SHOOT": "fiskheroes:web_shoot"
+          }
+        },
+        "fiskheroes:ricochet_web": {
+          "cooldown": 13,
+          "uses": 4,
+          "damageProfile": {
+            "damage": 5.0,
+            "types": {
+              "BLUNT": 1.0,
+              "SOUND": 1.0
+            },
+            "properties": {
+              "DAMAGE_DROPOFF": 0.4,
+              "HIT_COOLDOWN": 0
+            }
+          },
+          "soundEvents": {
+            "USE": "fiskheroes:web_shoot"
+          }
+        }
+      },
+      "soundEvents": {
+        "SWITCH": "fiskheroes:web_switch"
+      }
+    },
+    "fiskheroes:transformation|Symbiote": {
+      "key": "TRANSFORM",
+      "transformation": {
+        "toggleData": "shp:dyn/symbiosis",
+        "timerData": "shp:dyn/symbiosis_timer",
+        "time": 20
+      }
+    },
+    "fiskheroes:damage_weakness|sound1": {
+      "damageType": "SOUND",
+      "factor": 5.0
+    },
+    "fiskheroes:damage_weakness|sound2": {
+      "damageType": "SOUND",
+      "factor": 10.0
+    },
+    "fiskheroes:damage_weakness|sound3": {
+      "damageType": "SOUND",
+      "factor": 15.0
+    },
+    "fiskheroes:damage_weakness|fire1": {
+      "damageType": "FIRE",
+      "factor": 5.0
+    },
+    "fiskheroes:damage_weakness|fire2": {
+      "damageType": "FIRE",
+      "factor": 10.0
+    },
+    "fiskheroes:damage_weakness|fire3": {
+      "damageType": "FIRE",
+      "factor": 15.0
+    },
+    "fiskheroes:cooldown|health_flicker|health_flicker_cooldown": {
+      "cooldown": {
+        "toggleData": "entity.getData('shp:dyn/health_flicker')",
+        "cooldownData": "shp:dyn/health_flicker_cooldown",
+        "duration": 20,
+        "recovery": 12000
+      }
+    },
+    "fiskheroes:fire_immunity|health_flicker_fire_immunity": {},
+    "fiskheroes:water_breathing|health_flicker_water_breathing": {},
+    "fiskheroes:shield|health_flicker_shield": {
+      "shield": {
+        "health": 200.0,
+        "regeneration": 200.0,
+        "recoveryDelay": 0,
+        "cooldown": 0
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false
+    },
+    "fiskheroes:cooldown|health_flicker_regen_cooldown": {
+      "cooldown": {
+        "toggleData": "shp:dyn/health_flicker_regen",
+        "cooldownData": "shp:dyn/health_flicker_regen_cooldown",
+        "duration": 25,
+        "recovery": 12000
+      }
+    },
+    "fiskheroes:healing_factor|health_flicker_regen_healing_factor": {
+      "delay": 0
+    }
+  },
+  "hud": [{
+      "type": "PROGRESS",
+      "texture": "fiskheroes:textures/gui/bars/steel_transformation.png",
+      "data": "shp:dyn/invisible_cooldown"
+    },
+    {
+      "type": "PROGRESS",
+      "texture": "fiskheroes:textures/gui/bars/nanite_transformation.png",
+      "data": "entity.getData('shp:dyn/health_flicker_regen') ? 0.001: 0"
+    }
+  ]
+}

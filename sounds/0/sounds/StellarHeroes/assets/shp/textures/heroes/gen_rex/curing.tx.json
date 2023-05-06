@@ -1,0 +1,22 @@
+{
+  "texture": {
+    "in": "shp:gen_rex/curing_overlay",
+    "transform": [
+      {
+        "operation": "XOR",
+        "supply": "shp:gen_rex/xor/curing/<TIMER>"
+      }
+    ],
+    "out": "shp:generated/gen_rex_curing<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "Math.ceil(28 * entity.getInterpolatedData('fiskheroes:cryo_charge')) | 0",
+      "values": {
+        "min": 0,
+        "max": 28
+      }
+    }
+  },
+  "isDynamic": true
+}

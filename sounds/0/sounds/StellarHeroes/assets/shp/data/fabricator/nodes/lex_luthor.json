@@ -1,0 +1,14 @@
+{
+  "suit": "shp:lex_luthor",
+  "requirements": [
+    "fiskheroes:tier6_7",
+    "fiskheroes:flight",
+    "fiskheroes:defense3",
+    "fiskheroes:melee2",
+    "fiskheroes:ranged3"
+  ],
+  "price": {
+  "XP_LEVELS": 20,
+  "IRID_GOLD": 3
+  }
+}

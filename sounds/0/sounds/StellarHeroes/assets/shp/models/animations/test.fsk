@@ -1,0 +1,3 @@
+{data} = curve {data}
+{gunRight_rotX} @ {data} -> {pitch}' ;x
+{gunRight_rotY} @ {data} -'> -({bodyYaw} - {yaw})'

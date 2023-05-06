@@ -1,0 +1,12 @@
+{data_1} = curve {data_1} * 4
+{data_2} = curve {data_2} * 4
+{data_3} = curve {data_3} * 4
+
+
+; Y = X | {data1} float | {data4} boolean
+; X = Z | {data2} float | {data5} boolean
+; Z = Y | {data3} float | {data6} boolean
+
+{Skeets_posZ} = (if ({data4} == 0, {data_1}, -{data1}))
+{Skeets_posX} = -15 + (if ({data5} == 0, {data_2}, -{data2}))
+{Skeets_posY} = -1 + (if ({data6} == 0, {data_3}, -{data3}))

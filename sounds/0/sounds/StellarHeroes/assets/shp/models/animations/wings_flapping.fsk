@@ -1,0 +1,7 @@
+{data} = curve {data}
+{data} = clamp({data}, 0.3, 1)
+{WingOne_rotY} @ -{data} -> 1
+{WingTwo_rotY} @ -{data} -> 1
+
+{WingOne_posZ} @ {data} * 1 -> 1
+{WingTwo_posZ} @ {data} * 1 -> 1

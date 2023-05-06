@@ -1,0 +1,30 @@
+{
+  "name": "Quantum Realm Nanotech Suit",
+  "modifiers": {
+    "fiskheroes:size_manipulation": {
+      "isInstant": true,
+      "minSize": 0.0625,
+      "maxSize": 1.0,
+      "soundEvents": {
+        "SHRINK": "fiskheroes:pym_shrink",
+        "GROW": "fiskheroes:pym_grow_giant"
+      }
+    },
+    "fiskheroes:transformation": {
+      "key": "ACTIVATE",
+      "transformation": {
+        "toggleData": "shp:dyn/suit",
+        "timerData": "shp:dyn/suit_timer",
+        "time": 10
+      }
+    },
+    "fiskheroes:damage_immunity": {
+      "damageType": "BULLET"
+    },
+    "fiskheroes:water_breathing": {},
+    "fiskheroes:teleportation": {
+      "canReachMoon": true,
+      "range": 1
+    }
+  }
+}

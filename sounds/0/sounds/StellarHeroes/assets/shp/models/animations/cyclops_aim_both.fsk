@@ -1,0 +1,20 @@
+{data} = {data}
+
+
+{rightArm_rotX} @ {data} -> 0.3 + {body_rotX}
+{rightArm_rotZ} @ {data} -> 0.15
+
+
+{leftArm_rotX} @ {data} -> 0.3 + {body_rotX}
+{leftArm_rotZ} @ {data} -> -0.15
+
+{leftLeg_rotX} @ {data} -> 0.3
+{rightLeg_rotZ} @ {data} -> 0.1
+
+{rightLeg_rotX} @ {data} -> -0.3
+{leftLeg_rotZ} @ {data} -> -0.1
+
+
+
+
+

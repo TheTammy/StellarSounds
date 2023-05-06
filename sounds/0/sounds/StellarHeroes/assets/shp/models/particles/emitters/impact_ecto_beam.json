@@ -1,0 +1,10 @@
+{
+    "particles": [
+      {
+        "type": "FIREWORK_BACKGROUND",
+        "amount": 2,
+        "randOffset": [1, 1, 1],
+        "motion": [0, 1, 0]
+      }
+    ]
+  }
