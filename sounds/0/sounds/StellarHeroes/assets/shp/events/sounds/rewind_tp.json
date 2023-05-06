@@ -1,7 +1,0 @@
-{
-  "parent": "fiskheroes:sound_base",
-  "sound": "shp:main.rewind_tp",
-  "volume": 1.0,
-  "pitch": "0.9 / (Math.random() * 0.2 + 0.8)",
-  "condition": "entity.getData('shp:dyn/1integer_reset') == 1"
-}

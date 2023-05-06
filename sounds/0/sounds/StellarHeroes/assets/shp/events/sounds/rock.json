@@ -1,7 +1,0 @@
-{
-  "parent": "fiskheroes:sound_base",
-  "sound": "shp:main.rock",
-  "condition": "entity.getData('fiskheroes:mask_open')",
-  "fadeIn": 5,
-  "fadeOut": 5
-}

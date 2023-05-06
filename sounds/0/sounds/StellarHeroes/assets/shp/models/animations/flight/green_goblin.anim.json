@@ -1,7 +1,0 @@
-{
-  "inputs": [
-    "fiskheroes:flight/header",
-    "shp:flight/hover/glider_hover",
-    "shp:flight/boost/glider_boost"
-  ]
-}

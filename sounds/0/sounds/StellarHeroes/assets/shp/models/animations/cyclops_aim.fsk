@@ -1,5 +1,0 @@
-{data} = {data}
-
-{rightArm_rotX} @ {data} -> -2.95
-{rightArm_rotZ} @ {data} -> 0.15
-{rightArm_posY} @ {data} -> 4.15

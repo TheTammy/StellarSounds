@@ -1,6 +1,0 @@
-{
-  "sound": "shp:main.black_adam_lightning_beam_1",
-  "condition": "fiskheroes:energy_projection",
-  "fadeIn": 5,
-  "fadeOut": 5
-}

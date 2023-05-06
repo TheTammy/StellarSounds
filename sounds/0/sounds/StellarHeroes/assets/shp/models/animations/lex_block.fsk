@@ -1,7 +1,0 @@
-{data} = {data}
-
-{rightArm_rotX} @ {data} -> -1.7
-{rightArm_rotY} @ {data} -> 0.4
-
-{leftArm_rotX} @ {data} -> -1.7
-{leftArm_rotY} @ {data} -> -0.4

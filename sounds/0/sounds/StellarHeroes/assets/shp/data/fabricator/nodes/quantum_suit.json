@@ -1,9 +1,0 @@
-{
-  "suit": "shp:quantum_suit",
-  "requirements": [
-    "fiskheroes:tier2_3",
-    "fiskheroes:size_manipulation",
-    "fiskheroes:stark",
-    "fiskheroes:melee"
-  ]
-}

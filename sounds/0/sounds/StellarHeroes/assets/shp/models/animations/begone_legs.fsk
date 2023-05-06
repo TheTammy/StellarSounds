@@ -1,4 +1,0 @@
-{data} = {data}
-
-{rightLeg_posY} += 16384*{data}
-{leftLeg_posY} += 16384*{data}
