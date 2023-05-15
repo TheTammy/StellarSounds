@@ -76,5 +76,11 @@
       "rewind_tp"
     ],
     "category": "player"
+  },
+  "main.bamf": {
+    "sounds": [
+      "bamf"
+    ],
+    "category": "player"
   }
 }
