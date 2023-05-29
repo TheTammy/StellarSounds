@@ -106,5 +106,23 @@
       "pepsiman_step"
     ],
     "category": "player"
+  },
+  "main.pepsi_shoot": {
+    "sounds": [
+      "pepsi_shoot"
+    ],
+    "category": "player"
+  },
+  "main.shaking_can": {
+    "sounds": [
+      "shaking_can"
+    ],
+    "category": "player"
+  },
+  "main.sodacan_open": {
+    "sounds": [
+      "sodacan_open"
+    ],
+    "category": "player"
   }
 }
