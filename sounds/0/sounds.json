@@ -82,5 +82,29 @@
       "bamf"
     ],
     "category": "player"
+  },
+  "main.lex_mech_walk": {
+    "sounds": [
+      "lex_mech_walk"
+    ],
+    "category": "player"
+  },
+  "main.refreshing": {
+    "sounds": [
+      "refreshing"
+    ],
+    "category": "player"
+  },
+  "main.pepsiman": {
+    "sounds": [
+      "pepsiman"
+    ],
+    "category": "player"
+  },
+  "main.pepsiman_step": {
+    "sounds": [
+      "pepsiman_step"
+    ],
+    "category": "player"
   }
 }
