@@ -124,5 +124,11 @@
       "sodacan_open"
     ],
     "category": "player"
+  },
+  "main.whoosh_can": {
+    "sounds": [
+      "whoosh_can"
+    ],
+    "category": "player"
   }
 }
