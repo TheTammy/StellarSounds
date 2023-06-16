@@ -130,5 +130,162 @@
       "whoosh_can"
     ],
     "category": "player"
+  },
+  "main.mind_control_2": {
+    "sounds": [
+      "mind_control_2"
+    ],
+    "category": "player"
+  },
+  "main.bbutcher_land_2": {
+    "sounds": [
+      "bbutcher_land_2"
+    ],
+    "category": "player"
+  },
+  "main.put_away": {
+    "sounds": [
+      "put_away"
+    ],
+    "category": "player"
+  },
+  "main.atrocitus_blood_beam": {
+    "sounds": [
+      "atrocitus_blood_beam"
+    ],
+    "category": "player"
+  },
+  "main.butcher_beam": {
+    "sounds": [
+      "butcher_beam"
+    ],
+    "category": "player"
+  },
+  "main.ice_object_frozen": {
+    "sounds": [
+      "ice_object_frozen"
+    ],
+    "category": "player"
+  },
+  "main.martian_man_hunter_beam_start": {
+    "sounds": [
+      "martian_man_hunter_beam_start"
+    ],
+    "category": "player"
+  },
+  "main.booster_gold_shield": {
+    "sounds": [
+      "booster_gold_shield"
+    ],
+    "category": "player"
+  },
+  "main.booster_gold_shield_on": {
+    "sounds": [
+      "booster_gold_shield_on"
+    ],
+    "category": "player"
+  },
+  "main.booster_gold_lunge_smal": {
+    "sounds": [
+      "booster_gold_lunge_smal"
+    ],
+    "category": "player"
+  },
+  "main.gizmo_bolt_imp": {
+    "sounds": [
+      "gizmo_bolt_imp"
+    ],
+    "category": "player"
+  },
+  "main.jetpack_flight": {
+    "sounds": [
+      "jetpack_flight"
+    ],
+    "category": "player"
+  },
+  "main.detective_mode_on_v1": {
+    "sounds": [
+      "detective_mode_on_v1"
+    ],
+    "category": "player"
+  },
+  "main.mech_forcefield": {
+    "sounds": [
+      "mech_forcefield"
+    ],
+    "category": "player"
+  },
+  "main.lex_beam": {
+    "sounds": [
+      "lex_beam"
+    ],
+    "category": "player"
+  },
+  "main.lex_beam_stop": {
+    "sounds": [
+      "lex_beam_stop"
+    ],
+    "category": "player"
+  },
+  "main.lex_beam_start_1": {
+    "sounds": [
+      "lex_beam_start_1"
+    ],
+    "category": "player"
+  },
+  "main.lex_beamimp": {
+    "sounds": [
+      "lex_beamimp"
+    ],
+    "category": "player"
+  },
+  "main.jetpack_flight_super_sonic": {
+    "sounds": [
+      "jetpack_flight_super_sonic"
+    ],
+    "category": "player"
+  },
+  "main.lex_bolt_4": {
+    "sounds": [
+      "lex_bolt_4"
+    ],
+    "category": "player"
+  },
+  "main.walk_metal_2": {
+    "sounds": [
+      "walk_metal_2"
+    ],
+    "category": "player"
+  },
+  "main.walk_metal_4": {
+    "sounds": [
+      "walk_metal_4"
+    ],
+    "category": "player"
+  },
+  "main.walk_metal_3": {
+    "sounds": [
+      "walk_metal_3"
+    ],
+    "category": "player"
+  },
+  "main.butcher_struggle": {
+    "sounds": [
+      "butcher_struggle"
+    ],
+    "category": "player"
+  },
+  "main.lex_mech_aim": {
+    "sounds": [
+      "lex_mech_aim"
+    ],
+    "category": "player"
+  },
+  "main.chains_summoning": {
+    "sounds": [
+      "chains_summoning"
+    ],
+    "category": "player"
   }
+
 }
