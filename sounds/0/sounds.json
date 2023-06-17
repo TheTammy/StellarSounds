@@ -286,6 +286,11 @@
       "chains_summoning"
     ],
     "category": "player"
+  },
+  "main.pepsiman_theme": {
+    "sounds": [
+      "pepsiman_theme"
+    ],
+    "category": "player"
   }
-
 }
