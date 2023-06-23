@@ -99,7 +99,8 @@
     "sounds": [
       "pepsiman"
     ],
-    "category": "player"
+    "category": "player",
+    "stream": true
   },
   "main.pepsiman_step": {
     "sounds": [
@@ -291,6 +292,7 @@
     "sounds": [
       "pepsiman_theme"
     ],
-    "category": "player"
+    "category": "player",
+    "stream": true
   }
 }
