@@ -294,5 +294,23 @@
     ],
     "category": "player",
     "stream": true
+  },
+  "main.pepsi_man_fall_flatten_1": {
+    "sounds": [
+      "pepsi_man_fall_flatten_1"
+    ],
+    "category": "player"
+  },
+  "main.pepsiman_inground_landing": {
+    "sounds": [
+      "pepsiman_inground_landing"
+    ],
+    "category": "player"
+  },
+  "main.metal_pipe_fall": {
+    "sounds": [
+      "metal_pipe_fall"
+    ],
+    "category": "player"
   }
 }
