@@ -312,5 +312,11 @@
       "metal_pipe_fall"
     ],
     "category": "player"
+  },
+  "main.danny_phantom_transform": {
+    "sounds": [
+      "danny_phantom_transform"
+    ],
+    "category": "player"
   }
 }
