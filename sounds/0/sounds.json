@@ -1,8 +1,9 @@
 {
   "main.rock": {
-    "sounds": [
-      "rock"
-    ],
+    "sounds": [{
+      "name": "rock",
+      "stream": true
+    }],
     "category": "player"
   },
   "main.phantom_theme": {
@@ -96,11 +97,12 @@
     "category": "player"
   },
   "main.pepsiman": {
-    "sounds": [
-      "pepsiman"
+    "sounds": [{
+        "name": "pepsiman",
+        "stream": true
+      }
     ],
-    "category": "player",
-    "stream": true
+    "category": "player"
   },
   "main.pepsiman_step": {
     "sounds": [
@@ -289,11 +291,12 @@
     "category": "player"
   },
   "main.pepsiman_theme": {
-    "sounds": [
-      "pepsiman_theme"
+    "sounds": [{
+        "name": "pepsiman_theme",
+        "stream": true
+      }
     ],
-    "category": "player",
-    "stream": true
+    "category": "player"
   },
   "main.pepsi_man_fall_flatten_1": {
     "sounds": [
