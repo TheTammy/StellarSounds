@@ -321,5 +321,11 @@
       "danny_phantom_transform"
     ],
     "category": "player"
+  },
+  "main.EpicMetal_Hard": {
+    "sounds": [
+      "EpicMetal_Hard"
+    ],
+    "category": "player"
   }
 }
