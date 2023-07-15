@@ -327,5 +327,23 @@
       "EpicMetal_Hard"
     ],
     "category": "player"
+  },
+  "main.des_2": {
+    "sounds": [
+      "des_2"
+    ],
+    "category": "player"
+  },
+  "main.dr_manhattan_teleport": {
+    "sounds": [
+      "dr_manhattan_teleport"
+    ],
+    "category": "player"
+  },
+  "main.inflating_can": {
+    "sounds": [
+      "inflating_can"
+    ],
+    "category": "player"
   }
 }
