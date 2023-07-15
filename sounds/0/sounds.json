@@ -327,11 +327,5 @@
       "EpicMetal_Hard"
     ],
     "category": "player"
-  },
-  "main.inflating_can": {
-    "sounds": [
-      "inflating_can"
-    ],
-    "category": "player"
   }
 }
