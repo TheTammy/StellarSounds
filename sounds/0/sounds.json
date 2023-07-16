@@ -345,5 +345,10 @@
       "inflating_can"
     ],
     "category": "player"
+  },  "main.pepsi_man_takeoff": {
+    "sounds": [
+      "pepsi_man_takeoff"
+    ],
+    "category": "player"
   }
 }
