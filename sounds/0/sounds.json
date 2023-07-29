@@ -368,5 +368,29 @@
       "dr_manhattan_shrink"
     ],
     "category": "player"
+  },
+  "main.booster_gold_lungeslam": {
+    "sounds": [
+      "booster_gold_lungeslam"
+    ],
+    "category": "player"
+  },
+  "main.booster_gold_shield_off": {
+    "sounds": [
+      "booster_gold_shield_off"
+    ],
+    "category": "player"
+  },
+  "main.booster_gold_start_beam": {
+    "sounds": [
+      "booster_gold_start_beam"
+    ],
+    "category": "player"
+  },
+  "main.booster_gold_beam": {
+    "sounds": [
+      "booster_gold_beam"
+    ],
+    "category": "player"
   }
 }
