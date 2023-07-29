@@ -350,5 +350,23 @@
       "pepsi_man_takeoff"
     ],
     "category": "player"
+  },
+  "main.dr_manhattan_grow_1": {
+    "sounds": [
+      "dr_manhattan_grow_1"
+    ],
+    "category": "player"
+  },
+  "main.dr_manhattan_grow_complete_1": {
+    "sounds": [
+      "dr_manhattan_grow_complete_1"
+    ],
+    "category": "player"
+  },
+  "main.dr_manhattan_shrink": {
+    "sounds": [
+      "dr_manhattan_shrink"
+    ],
+    "category": "player"
   }
 }
