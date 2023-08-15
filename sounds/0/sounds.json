@@ -404,5 +404,17 @@
       "act_fly_lp"
     ],
     "category": "player"
+  },
+  "main.slowmo_stop": {
+    "sounds": [
+      "slowmo_stop"
+    ],
+    "category": "player"
+  },
+  "main.slowmo_start": {
+    "sounds": [
+      "slowmo_start"
+    ],
+    "category": "player"
   }
 }
