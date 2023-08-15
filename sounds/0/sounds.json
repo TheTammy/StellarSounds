@@ -399,9 +399,9 @@
     ],
     "category": "player"
   },
-  "main.ACT_FLY_LP": {
+  "main.act_fly_lp": {
     "sounds": [
-      "ACT_FLY_LP"
+      "act_fly_lp"
     ],
     "category": "player"
   }
