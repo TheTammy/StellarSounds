@@ -398,5 +398,11 @@
       "dr_manhattan_telekinesis"
     ],
     "category": "player"
+  },
+  "main.ACT_FLY_LP": {
+    "sounds": [
+      "ACT_FLY_LP"
+    ],
+    "category": "player"
   }
 }
