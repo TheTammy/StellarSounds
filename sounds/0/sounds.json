@@ -416,5 +416,35 @@
       "slowmo_start"
     ],
     "category": "player"
+  },
+  "main.spawn_transform_sound": {
+    "sounds": [
+      "spawn_transform_sound"
+    ],
+    "category": "player"
+  },
+  "main.spawn_tp2": {
+    "sounds": [
+      "spawn_tp2"
+    ],
+    "category": "player"
+  },
+  "main.spawn_tp": {
+    "sounds": [
+      "spawn_tp"
+    ],
+    "category": "player"
+  },
+  "main.spawn_invis": {
+    "sounds": [
+      "spawn_invis"
+    ],
+    "category": "player"
+  },
+  "main.spawn_healingfactor": {
+    "sounds": [
+      "spawn_healingfactor"
+    ],
+    "category": "player"
   }
 }
