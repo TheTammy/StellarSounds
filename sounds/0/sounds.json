@@ -446,5 +446,22 @@
       "spawn_healingfactor"
     ],
     "category": "player"
+  },  "main.spawn_mask_off": {
+    "sounds": [
+      "spawn_mask_off"
+    ],
+    "category": "player"
+  },
+  "main.spawn_mask_on": {
+    "sounds": [
+      "spawn_mask_on"
+    ],
+    "category": "player"
+  },
+  "main.spawn_untransform": {
+    "sounds": [
+      "spawn_untransform"
+    ],
+    "category": "player"
   }
 }
