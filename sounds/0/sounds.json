@@ -463,5 +463,35 @@
       "spawn_untransform"
     ],
     "category": "player"
+  },
+  "main.chain_spawn_jab_start": {
+    "sounds": [
+      "chain_spawn_jab_start"
+    ],
+    "category": "player"
+  },
+  "main.chain_spawn_grab_start": {
+    "sounds": [
+      "chain_spawn_grab_start"
+    ],
+    "category": "player"
+  },
+  "main.chain_spawn_disable": {
+    "sounds": [
+      "chain_spawn_disable"
+    ],
+    "category": "player"
+  },
+  "main.chain_spawn_enable": {
+    "sounds": [
+      "chain_spawn_enable"
+    ],
+    "category": "player"
+  },
+  "main.chain_spawn_grab_unanchor": {
+    "sounds": [
+      "chain_spawn_grab_unanchor"
+    ],
+    "category": "player"
   }
 }
