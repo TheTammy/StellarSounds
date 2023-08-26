@@ -443,6 +443,12 @@
     ],
     "category": "player"
   },
+  "main.spawn_visible": {
+    "sounds": [
+      "spawn_visible"
+    ],
+    "category": "player"
+  },
   "main.spawn_healingfactor": {
     "sounds": [
       "spawn_healingfactor"
