@@ -1,9 +1,10 @@
 {
   "main.rock": {
     "sounds": [{
-      "name": "rock",
-      "stream": true
-    }],
+        "name": "rock",
+        "stream": true
+      }
+    ],
     "category": "player"
   },
   "main.phantom_theme": {
@@ -345,7 +346,8 @@
       "inflating_can"
     ],
     "category": "player"
-  },  "main.pepsi_man_takeoff": {
+  },
+  "main.pepsi_man_takeoff": {
     "sounds": [
       "pepsi_man_takeoff"
     ],
@@ -446,7 +448,8 @@
       "spawn_healingfactor"
     ],
     "category": "player"
-  },  "main.spawn_mask_off": {
+  },
+  "main.spawn_mask_off": {
     "sounds": [
       "spawn_mask_off"
     ],
@@ -499,10 +502,16 @@
       "spawn_wisp_in"
     ],
     "category": "player"
-},
+  },
   "main.spawn_wisp_out": {
     "sounds": [
-     "spawn_wisp_out"
+      "spawn_wisp_out"
+    ],
+    "category": "player"
+  },
+  "main.spawn_wisp_ambient": {
+    "sounds": [
+      "spawn_wisp_ambient"
     ],
     "category": "player"
   }
