@@ -493,5 +493,20 @@
       "chain_spawn_grab_unanchor"
     ],
     "category": "player"
+<<<<<<< Updated upstream
+=======
+  },
+  "main.spawn_wisp_in": {
+    "sounds": [
+      "spawn_wisp_in"
+    ],
+    "category": "player"
+},
+  "main.spawn_wisp_out": {
+    "sounds": [
+     "spawn_wisp_out"
+    ],
+    "category": "player"
+>>>>>>> Stashed changes
   }
 }
